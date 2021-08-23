@@ -1,0 +1,124 @@
+body {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    width: 1440px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+main {
+    background-color: #FFFFFF;
+    display: block;
+    width: 450px;
+    height: 700px;
+    margin: 100px auto;
+    border-radius: 20px;
+}
+
+#hero {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px 0 20px 0;
+    font-weight: 900;
+    font-size: 1.8em;
+    font-style: bold;
+    color: hsl(223, 47%, 23%);
+}
+
+.explanation {
+    text-align: center;
+    font-size: 1.05em;
+    font-weight: 500;
+    line-height: 1.4em;
+    width: 75%;
+    margin: 0 auto;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan {
+    display: block;
+    background-color: hsl(225, 100%, 98%);
+    margin: 25px auto;
+    width: 80%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.annual-plan {
+    display: inline-block;
+    margin: 25px 0;
+    line-height: 1.5em;
+}
+
+.annual-plan h2 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.annual-plan p {
+    color: hsl(224, 23%, 55%);
+}
+
+.change {
+    float: right;
+    font-size: 0.9em;
+    font-weight: 700;
+    text-decoration: underline;
+    margin: 43px 25px;
+    color: hsl(245, 75%, 52%);
+}
+
+.change:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: hsl(245, 100%, 70%);
+}
+
+.music-icon {
+    float: left;
+    margin: 25px;
+}
+
+.button {
+    display: flex;
+    background-color: hsl(245, 75%, 52%);
+    margin: 35px auto;
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 20px 15px hsl(225, 100%, 94%);
+}
+
+.button-text {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 0.95em;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: hsl(245, 100%, 70%);
+}
+
+.cancel p {
+    display: block;
+    color: hsl(224, 23%, 55%);
+    font-size: 0.95em;
+    font-weight: 900;
+    text-align: center;
+}
+
+.cancel p:hover {
+    cursor: pointer;
+    color:hsl(223, 47%, 23%)
+}
+
+.attribution {
+    text-align: center;
+}
